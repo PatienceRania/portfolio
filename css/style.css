@@ -431,6 +431,13 @@ button[type="submit"]:hover {
 }
 
 @media (max-width: 575.98px) {
+    body {
+        overflow-x: hidden !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .service .service-text h3 {
         font-size: 16px;
         margin-bottom: 5px;
@@ -453,6 +460,11 @@ button[type="submit"]:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .footer {
+        overflow-x: hidden;
+        text-align: center;
     }
 
     .intro {
