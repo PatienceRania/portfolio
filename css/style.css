@@ -462,8 +462,12 @@ button[type="submit"]:hover {
         justify-content: center;
     }
 
+    .navbar {
+        overflow-x: hidden !important;
+    }
+
     .footer {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
         text-align: center;
     }
 
