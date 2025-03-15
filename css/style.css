@@ -539,7 +539,7 @@ button[type="submit"]:hover {
 
     #skillset {
         margin-left: -110px;
-        max-width: 100%;
+        width: 100%;
     }
 
 
